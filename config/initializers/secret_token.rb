@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-GifVault::Application.config.secret_key_base = 'b6b2ca9e7b67f719fc53683267274954dc153681b5deefa02d56176c5d35d91a603aee3f16388ba214d831646f097ee72726a7986bf5ea312af86c34365b825a'
+RubyUserAuth::Application.config.secret_key_base = 'b6b2ca9e7b67f719fc53683267274954dc153681b5deefa02d56176c5d35d91a603aee3f16388ba214d831646f097ee72726a7986bf5ea312af86c34365b825a'

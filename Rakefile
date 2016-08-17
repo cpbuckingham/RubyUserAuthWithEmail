@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-GifVault::Application.load_tasks
+RubyUserAuth::Application.load_tasks

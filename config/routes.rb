@@ -1,6 +1,6 @@
-GifVault::Application.routes.draw do
+RubyUserAuth::Application.routes.draw do
 
-  root to: 'gif#cool'
+  root to: 'home#show'
 
   get '/login' => 'sessions#new'
   post '/login' => 'sessions#create'
@@ -9,7 +9,8 @@ GifVault::Application.routes.draw do
   get '/signup' => 'users#new'
   post '/users' => 'users#create'
 
-  get '/cool' => 'gif#cool'  
-  get '/sweet' => 'gif#sweet'
+  get '/one' => 'product#one'
+  get '/two' => 'product#two'
+  get '/three' => 'product#three'
 
 end
